@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		F7065DD32268F31B00CF1BA8 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7065DD22268F31B00CF1BA8 /* GoalCell.swift */; };
 		F736D9A02269EE8000B756CF /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F736D99F2269EE8000B756CF /* GoalType.swift */; };
+		F736D9A2226C76E100B756CF /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F736D9A1226C76E100B756CF /* CreateGoalVC.swift */; };
+		F736D9A4226C978F00B756CF /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F736D9A3226C978F00B756CF /* UIViewControllerExt.swift */; };
 		F7540D82226882BD00A0B528 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7540D81226882BD00A0B528 /* AppDelegate.swift */; };
 		F7540D84226882BD00A0B528 /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7540D83226882BD00A0B528 /* GoalsVC.swift */; };
 		F7540D87226882BD00A0B528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7540D85226882BD00A0B528 /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		F7065DD22268F31B00CF1BA8 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 		F736D99F2269EE8000B756CF /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
+		F736D9A1226C76E100B756CF /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
+		F736D9A3226C978F00B756CF /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		F7540D7E226882BD00A0B528 /* Goal Post.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goal Post.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7540D81226882BD00A0B528 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7540D83226882BD00A0B528 /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
@@ -78,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				F7540D83226882BD00A0B528 /* GoalsVC.swift */,
+				F736D9A1226C76E100B756CF /* CreateGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -101,6 +106,7 @@
 		F7540D992268831E00A0B528 /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
+				F736D9A3226C978F00B756CF /* UIViewControllerExt.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -177,9 +183,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7065DD32268F31B00CF1BA8 /* GoalCell.swift in Sources */,
+				F736D9A2226C76E100B756CF /* CreateGoalVC.swift in Sources */,
 				F736D9A02269EE8000B756CF /* GoalType.swift in Sources */,
 				F7540D84226882BD00A0B528 /* GoalsVC.swift in Sources */,
 				F7540D82226882BD00A0B528 /* AppDelegate.swift in Sources */,
+				F736D9A4226C978F00B756CF /* UIViewControllerExt.swift in Sources */,
 				F7540D8A226882BD00A0B528 /* Goal_Post.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
