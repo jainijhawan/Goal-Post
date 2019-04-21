@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7065DD32268F31B00CF1BA8 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7065DD22268F31B00CF1BA8 /* GoalCell.swift */; };
+		F736D9A02269EE8000B756CF /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F736D99F2269EE8000B756CF /* GoalType.swift */; };
 		F7540D82226882BD00A0B528 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7540D81226882BD00A0B528 /* AppDelegate.swift */; };
 		F7540D84226882BD00A0B528 /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7540D83226882BD00A0B528 /* GoalsVC.swift */; };
 		F7540D87226882BD00A0B528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7540D85226882BD00A0B528 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F7065DD22268F31B00CF1BA8 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		F736D99F2269EE8000B756CF /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		F7540D7E226882BD00A0B528 /* Goal Post.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goal Post.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7540D81226882BD00A0B528 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7540D83226882BD00A0B528 /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
@@ -81,6 +85,7 @@
 		F7540D97226882F400A0B528 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F7065DD22268F31B00CF1BA8 /* GoalCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -88,6 +93,7 @@
 		F7540D982268831600A0B528 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				F736D99F2269EE8000B756CF /* GoalType.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -170,6 +176,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7065DD32268F31B00CF1BA8 /* GoalCell.swift in Sources */,
+				F736D9A02269EE8000B756CF /* GoalType.swift in Sources */,
 				F7540D84226882BD00A0B528 /* GoalsVC.swift in Sources */,
 				F7540D82226882BD00A0B528 /* AppDelegate.swift in Sources */,
 				F7540D8A226882BD00A0B528 /* Goal_Post.xcdatamodeld in Sources */,
