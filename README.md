@@ -2,7 +2,7 @@
 A Core Data based app that uses table view to show the goals and store the user's goals in core data.
 Goals can be short term or long term and have a goal progress tracker.
 
-##Screenshots
+## Screenshots
 
 | Screenshot 1 | Screenshot 2 |
 |:----------------------:|:------------:|
